@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	DefaultName = "Tirt Assistant"
+	Name = "Tirt Assistant"
 
 	VersionMajor = 0
 	VersionMinor = 1
