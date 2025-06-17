@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	tirf "github.com/qdiaps/tirf-assistant/src"
+)
 
 func main() {
-	fmt.Println("This is Tirf Assistant!")
+	tirf.Run()
 }
