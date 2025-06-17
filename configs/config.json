@@ -1,3 +1,26 @@
 {
-  "name": "Tirt Assistant"
+  "name": "Tirt Assistant",
+  "modules": {
+    "core/database-fake": {
+      "name": "core/database-fake",
+      "author": "core",
+      "version": "1.0.0",
+      "path": "modules/database/",
+      "is_active": true
+    },
+    "core/log-fake": {
+      "name": "core/log-fake",
+      "author": "core",
+      "version": "1.0.0",
+      "path": "modules/log/",
+      "is_active": true
+    },
+    "core/pc-fake": {
+      "name": "core/pc-fake",
+      "author": "core",
+      "version": "1.0.0",
+      "path": "modules/pc/",
+      "is_active": true
+    }
+  }
 }

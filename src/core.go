@@ -4,12 +4,16 @@ import (
 	"fmt"
 
 	"github.com/qdiaps/tirf-assistant/src/command"
+	"github.com/qdiaps/tirf-assistant/src/config"
+	"github.com/qdiaps/tirf-assistant/src/module"
 	"github.com/qdiaps/tirf-assistant/src/types"
 )
 
 func Run() {
-	config := LoadConfig()
-	fmt.Printf("%s v%s\n", config.Name, types.GetVersion())
+	cfg := config.GetConfig()
+	fmt.Printf("%s v%s\n", cfg.Name, types.GetVersion())
+
+	module.LoadAllModules()
 
 	command.InitDefaultCommands()
 	command.HandleUserInput()

@@ -10,8 +10,6 @@ const (
 	VersionMajor = 0
 	VersionMinor = 1
 	VersionPatch = 0
-
-	PathToConfig = "configs/config.json"
 )
 
 func GetVersion() string {
