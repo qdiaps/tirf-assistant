@@ -37,7 +37,7 @@ func isExist(path string) bool {
 
 func createDefaultConfig() *types.Config {
 	config := &types.Config{
-		Name: types.DefaultName,
+		Name: types.Name,
 	}
 
 	jsonConfig, err := json.MarshalIndent(config, "", "  ")
