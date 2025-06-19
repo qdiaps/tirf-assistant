@@ -5,21 +5,28 @@
       "name": "core/database-fake",
       "author": "core",
       "version": "1.0.0",
-      "path": "modules/database/",
+      "path": "modules/core/database-fake/",
       "is_active": true
     },
     "core/log-fake": {
       "name": "core/log-fake",
       "author": "core",
       "version": "1.0.0",
-      "path": "modules/log/",
+      "path": "modules/core/log-fake/",
       "is_active": true
     },
     "core/pc-fake": {
       "name": "core/pc-fake",
       "author": "core",
       "version": "1.0.0",
-      "path": "modules/pc/",
+      "path": "modules/core/pc-fake/",
+      "is_active": true
+    },
+    "qdiaps/house-fake": {
+      "name": "qdiaps/house-fake",
+      "author": "qdiaps",
+      "version": "1.0.0",
+      "path": "modules/qdiaps/house-fake/",
       "is_active": true
     }
   }
